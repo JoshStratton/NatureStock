@@ -1,0 +1,67 @@
+/* Jumbotron is behind main navbar, adding padding to body between nab and jumbotron */
+body{
+	padding-top: 70px; 
+}
+
+/* Change nav background color */
+.navbar-inverse{
+  background: #2c3e50;
+}
+
+/* Change color when mouse hovering over brand name */
+#naturestock:hover{
+  color: black;
+  letter-spacing: 1.5px;
+}
+
+/* Default color of brand name */
+#naturestock{
+  color: white;
+  font-size: 2em;
+}
+
+/* Jumbotron style */
+.jumbotron{
+	color: #2c3e50; 
+	background: #ecf0f1;
+}
+
+/* Set thumbnail width style */
+.col-sm-6 img{
+width: 100%;
+}
+
+/* Set text inside Jumbotron */
+.jumbotron h1{
+  letter-spacing: 1.5px;
+  font-size: 45px;
+}
+
+/* Footer style */
+.footer{
+  font-family:"Roboto", sans-serif;
+  font-size:14px;
+  text-align: center;
+  padding:20px;
+  margin: 0px;
+  background-color: #0D0D0D;
+  background-position:justify;
+  color:#999;
+  width: 100%;
+  right: 0;
+  flex-shrink: 0;
+}
+
+/* Enlarge images, when hoving over it*/ 
+.img:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.20);
+  -ms-transform: scale(1.20); /* IE 9 */
+  -webkit-transform: scale(1.20); /* Safari and Chrome */
+}
