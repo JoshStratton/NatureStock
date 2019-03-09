@@ -22,7 +22,7 @@ body{
 /* Container for form */
 .mainContainer {
   /* The image used */
-  background-image: url("NatureStock/Photos/pageBackground.jpg");
+  background-image: url("JoshStratton/NatureStock/Photos/pageBackground.jpg");
   height: calc(100vh - 100px);
   background-position: center;
   background-repeat: no-repeat;
