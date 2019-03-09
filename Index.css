@@ -5,7 +5,7 @@
  /* Body styling */
 body{
   padding-top: 70px; 
-  background-image: url('../Photos/Landing Image.jpg'); /* Landing backgroung image style */
+  background-image: url('NatureStock/Photos/Landing Image.jpg'); /* Landing backgroung image style */
   background-position: center;
   font-family: 'Lato', sans-serif; /* Will change all text on landing page */
   color: white;
