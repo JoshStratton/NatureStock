@@ -1,0 +1,49 @@
+ html{
+  height: 100%;
+}
+
+ /* Body styling */
+body{
+  padding-top: 70px; 
+  background-image: url('../Photos/Landing Image.jpg'); /* Landing backgroung image style */
+  background-position: center;
+  font-family: 'Lato', sans-serif; /* Will change all text on landing page */
+  color: white;
+}
+
+/* Change nav background color */
+.navbar-inverse{
+  background: #2c3e50;
+}
+
+/* Change color when mouse hovering over brand name */
+#naturestock:hover{
+  color: black;
+}
+
+/* Default color of brand name */
+#naturestock{
+  color: white;
+  font-size: 2em;
+}
+
+/*h1,h3{
+  color: white;
+} or can place this inside body*/
+
+/* h1 text style */
+h1{
+	font-size: 3em;
+  letter-spacing: 2px;
+}
+
+/* Content text style */
+#content{
+  text-align: center;
+  padding-top: 20%;  /* 25% from top of page */
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
